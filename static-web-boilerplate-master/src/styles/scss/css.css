@@ -24,7 +24,6 @@ header {
   z-index: 2;
   transition: 0.5s;
 }
-
 .bg-nav {
   position: absolute;
   width: 100%;
@@ -36,7 +35,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .bg video {
   position: absolute;
   top: 0;
@@ -46,7 +44,6 @@ header {
   object-fit: cover;
   opacity: 0.8;
 }
-
 .bg.active {
   right: 300px;
 }
@@ -55,7 +52,6 @@ header {
   cursor: pointer;
   transition: 0.3s;
 }
-
 .logo:hover {
   border-radius: 10px;
   background-color: #7272da;
@@ -75,7 +71,6 @@ header {
   filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(601%) hue-rotate(135deg) brightness(111%) contrast(88%);
   z-index: 1000;
 }
-
 .toggle.active {
   background-image: url("/../static-web-boilerplate-master/src/images/closepng.png");
   filter: brightness(0) saturate(100%) invert(100%) sepia(2%) saturate(601%) hue-rotate(135deg) brightness(111%) contrast(88%);
@@ -98,31 +93,26 @@ header {
   position: absolute;
   z-index: 10;
 }
-
 .motto-title {
   font-size: 5em;
   font-weight: 600;
   line-height: 1em;
 }
-
 .motto-title2 {
   font-size: 4em;
   font-weight: 500;
   line-height: 1em;
 }
-
 .motto-text {
   font-size: 1.1em;
   font-weight: 400;
   margin: 20px 0;
   max-width: 700px;
 }
-
 .motto-btn {
   background-color: transparent;
   border: none;
 }
-
 .motto-btn a {
   display: inline-block;
   color: #fff;
@@ -132,7 +122,6 @@ header {
   letter-spacing: 2px;
   transition: 0.3s;
 }
-
 .motto-btn a:hover {
   border-radius: 10px;
   background-color: #7272da;
@@ -148,20 +137,17 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .social li {
   font-size: 2.5em;
   list-style: none;
   margin-right: 10px;
 }
-
 .social-link {
   color: white;
   display: inline-block;
   transform: scale(0.5);
   transition: 0.4s;
 }
-
 .social-link:hover {
   transform: scale(0.5) translateY(-10px);
 }
@@ -177,7 +163,6 @@ header {
   justify-content: center;
   background-image: linear-gradient(to right bottom, #3573a5, #fff, #3573a5);
 }
-
 .menu-item {
   position: relative;
   list-style: none;
@@ -185,7 +170,6 @@ header {
   padding: 10px;
   margin-bottom: 20px;
 }
-
 .menu-link {
   font-size: 1em;
   color: #2a2a7e;
@@ -193,7 +177,6 @@ header {
   text-decoration: none;
   transition: 0.3s;
 }
-
 .menu-link:hover {
   padding: 0.5em 1em;
   color: white;
@@ -212,11 +195,9 @@ header {
   left: 50%;
   margin-bottom: 30px;
 }
-
 .scroll-icon {
   color: #747373;
 }
-
 .scroll-icon:hover {
   color: white;
   cursor: pointer;
@@ -242,32 +223,27 @@ header {
   margin-bottom: 9rem;
   color: white;
 }
-
 .aboutme-color {
   background-color: rgba(161, 195, 236, 0.3);
   border-radius: 10px;
   padding: 1rem;
 }
-
 .aboutme-info {
   width: calc(calc(100% / 2) - 20px);
   margin-bottom: 3rem;
 }
-
 .aboutme__title {
   width: 18rem;
   border: 3px solid white;
   border-style: double double double none;
   font-size: 3rem;
   font-weight: 600;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
-
 .aboutme__desc {
   text-align: left;
   font-size: 1em;
 }
-
 .aboutme__img {
   width: 80%;
   height: 80%;
@@ -281,7 +257,6 @@ header {
   position: relative;
   color: #1a1b1b;
 }
-
 .mywork__title {
   position: relative;
   text-align: center;
@@ -301,13 +276,11 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .work-card {
   width: 100%;
   text-decoration: none;
   margin-bottom: 4rem;
 }
-
 .work-card-info {
   display: flex;
   flex-direction: row;
@@ -316,14 +289,12 @@ header {
   margin-bottom: 4rem;
   color: black;
 }
-
 .work-card__title {
   background-color: rgba(47, 106, 173, 0.8);
   font-size: 1.5rem;
   margin-right: 2rem;
   color: white;
 }
-
 .work-card__desc {
   background-color: rgba(47, 106, 173, 0.8);
   text-align: center;
@@ -331,13 +302,10 @@ header {
   font-weight: 300;
   color: white;
 }
-
-.work-card__title,
-.work-card__desc {
+.work-card__title, .work-card__desc {
   padding: 1rem;
   border-radius: 10px;
 }
-
 .work-card__img {
   border: 4px solid rgba(190, 207, 238, 0.5);
   box-shadow: 5px 10px 18px rgba(82, 119, 158, 0.5);
@@ -347,7 +315,6 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-
 .work-card__img:hover {
   transform: scale(1.1);
 }
@@ -357,15 +324,12 @@ header {
   grid-template-columns: 1fr 1fr;
   color: white;
 }
-
-.contact-info,
-.contact-me {
+.contact-info, .contact-me {
   padding: 1rem 0;
   font-size: 1rem;
   text-align: center;
   font-weight: 300;
 }
-
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -374,16 +338,12 @@ header {
   background-color: rgba(1, 92, 134, 0.5);
   border-right: 2px solid black;
 }
-
 .contact-info_no {
   padding: 5px;
 }
-
-.contact-info_no,
-.contact-info_mail {
+.contact-info_no, .contact-info_mail {
   margin-bottom: 0.2em;
 }
-
 .contact-me {
   display: flex;
   flex-direction: column;
@@ -391,11 +351,9 @@ header {
   align-items: center;
   background-color: rgba(1, 92, 134, 0.5);
 }
-
 .contact-me_call {
   margin-bottom: 0.2em;
 }
-
 .contact-me_btn {
   border: none;
   border-radius: 5px;
@@ -404,16 +362,13 @@ header {
   background-color: #185a79;
   transition: 0.4s;
 }
-
 .contact-me_btn:hover {
   letter-spacing: 2px;
 }
-
 .contact-me_link {
   color: white;
   text-decoration: none;
 }
-
 .contact-social {
   display: flex;
   flex-direction: row;
@@ -421,11 +376,9 @@ header {
   align-items: center;
   list-style: none;
 }
-
 .contact-social li {
   margin: 0 10px;
 }
-
 .contact-social_link {
   text-decoration: none;
   color: white;
@@ -434,7 +387,6 @@ header {
   transform: scale(0.5);
   transition: 0.4s;
 }
-
 .contact-social_link:hover {
   transform: scale(0.5) translateY(-10px);
 }
@@ -450,11 +402,9 @@ header {
   .motto-title {
     font-size: 4rem;
   }
-
   .motto-title2 {
     font-size: 3rem;
   }
-
   .motto-text {
     font-size: 1em;
     width: 25rem;
@@ -463,16 +413,13 @@ header {
   .aboutme {
     display: block;
   }
-
   .aboutme__title {
     margin-bottom: 3rem;
   }
-
   .aboutme-info {
     display: block;
     width: 100%;
   }
-
   .aboutme__img {
     width: 60%;
   }
@@ -480,17 +427,14 @@ header {
   .work-card__img {
     width: 100%;
   }
-
   .work-card-info {
     justify-content: space-between;
   }
 }
-
 @media (max-width: 767px) {
   .bg {
     padding: 80px;
   }
-
   .bg-nav {
     padding: 30px 80px;
   }
@@ -502,7 +446,6 @@ header {
   .motto-text {
     width: 20rem;
   }
-
   .motto-title2 {
     font-size: 2.5rem;
   }
@@ -510,11 +453,9 @@ header {
   .aboutme {
     display: block;
   }
-
   .aboutme__title {
     margin-bottom: 3rem;
   }
-
   .aboutme__img {
     width: 80%;
   }
@@ -522,7 +463,6 @@ header {
   .work-card__img {
     width: 100%;
   }
-
   .work-card__title {
     font-size: 1.3rem;
     text-align: center;
@@ -531,13 +471,11 @@ header {
   .contact {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
-
   .contact-info {
     border-right: none;
     border-bottom: 1px solid black;
   }
 }
-
 @media (max-width: 419px) {
   .bg.active {
     right: 270px;
@@ -550,11 +488,9 @@ header {
   .motto-title {
     font-size: 3rem;
   }
-
   .motto-title2 {
     font-size: 1.5rem;
   }
-
   .motto-text {
     font-size: 0.8rem;
     width: 15rem;
@@ -568,12 +504,10 @@ header {
   .aboutme {
     margin-bottom: 3rem;
   }
-
   .aboutme__title {
     width: 10rem;
     font-size: 2rem;
   }
-
   .aboutme__desc {
     font-size: 0.8rem;
   }
@@ -586,26 +520,20 @@ header {
   .work-card__img {
     width: 100%;
   }
-
   .work-card__title {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
   }
-
   .work-card__desc {
     font-size: 0.8rem;
   }
-
-  .work-card__title,
-  .work-card__desc {
+  .work-card__title, .work-card__desc {
     width: 100%;
   }
-
   .work-card .work-card-info {
     display: block;
   }
 }
-
 @media (max-width: 419px) and (max-width: 375px) {
   header {
     height: 667px;
@@ -619,7 +547,6 @@ header {
     width: 230px;
   }
 }
-
 @media (max-width: 419px) and (max-width: 320px) {
   header {
     height: 568px;
@@ -628,11 +555,9 @@ header {
   .bg {
     padding: 40px;
   }
-
   .bg-nav {
     padding: 30px 40px;
   }
-
   .bg.active {
     right: 220px;
   }
@@ -648,11 +573,9 @@ header {
   .motto-title {
     font-size: 2.5rem;
   }
-
   .motto-title2 {
     font-size: 1.3rem;
   }
-
   .motto-text {
     font-size: 0.8rem;
     width: 15rem;
@@ -666,7 +589,6 @@ header {
   .aboutme-info {
     margin: 2rem auto;
   }
-
   .aboutme__title {
     width: 10rem;
     margin-bottom: 2rem;
@@ -680,18 +602,17 @@ header {
   .work-card {
     margin-bottom: 2rem;
   }
-
   .work-card__title {
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
   }
-
   .work-card__desc {
     font-size: 0.8rem;
   }
-
   .work-card .work-card-info {
     display: block;
     margin-bottom: 2rem;
   }
 }
+
+/*# sourceMappingURL=css.css.map */
