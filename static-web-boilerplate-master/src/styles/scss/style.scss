@@ -330,6 +330,7 @@
 
     &__desc {
       background-color: rgba(47, 106, 173, 0.8);
+      text-align: center;
       font-size: 1rem;
       font-weight: 300;
       color: white;
@@ -405,7 +406,7 @@
       border-radius: 5px;
       padding: 5px;
       margin-bottom: 0.2em;
-      background-color: $blue;
+      background-color: #185a79;
       transition: 0.4s;
 
       &:hover {
